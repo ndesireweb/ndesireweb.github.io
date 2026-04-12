@@ -1,0 +1,16 @@
+{
+  "name": "NDesire14",
+  "short_name": "NDesire14",
+  "description": "Site officiel de NDesire14 (Nathan Rehman). Gaming et contact direct.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0c0f",
+  "theme_color": "#00f2fe",
+  "icons": [
+    {
+      "src": "avatar.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    }
+  ]
+}

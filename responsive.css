@@ -1,0 +1,130 @@
+/* responsive.css - Media queries pour tous les écrans */
+@media (max-width: 992px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+  }
+  .hero-actions {
+    justify-content: center;
+  }
+  .about-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    margin: 6px 6px 0 6px;
+    width: calc(100% - 12px);
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+  }
+
+  .nav-links {
+    display: none;
+    position: fixed;
+    top: 76px;
+    left: 6px;
+    right: 6px;
+    background: rgba(7, 17, 31, 0.96);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    flex-direction: column;
+    padding: 1.2rem 1rem;
+    text-align: center;
+    gap: 1rem;
+    z-index: 120;
+    width: calc(100% - 12px);
+    box-sizing: border-box;
+    max-height: calc(100vh - 92px);
+    overflow-y: auto;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links a {
+    display: block;
+    width: 100%;
+    padding: 0.9rem 0;
+  }
+
+  .nav-toggle {
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--primary);
+  }
+
+  main {
+    padding: 100px 1.5rem 100px 1.5rem !important;
+    margin: 82px 0 82px 0 !important;
+  }
+
+  footer {
+    margin: 0 6px 6px 6px;
+    width: calc(100% - 12px);
+    border-radius: 8px;
+  }
+
+  .glitch {
+    font-size: 3rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .pixel-avatar {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.8rem 1rem;
+    margin: 6px 6px 0 6px;
+    width: calc(100% - 12px);
+  }
+
+  .nav-brand {
+    font-size: 1.3rem;
+  }
+
+  .nav-brand span {
+    display: none;
+  }
+
+  .hero-actions .btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .page-title {
+    font-size: 2.5rem;
+  }
+
+  main {
+    padding-top: 100px !important;
+    padding-bottom: 90px !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    margin: 82px 0 82px 0 !important;
+  }
+
+  footer {
+    margin: 0 6px 6px 6px;
+    width: calc(100% - 12px);
+    border-radius: 8px;
+  }
+}

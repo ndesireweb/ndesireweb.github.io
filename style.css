@@ -1,0 +1,7 @@
+/* style.css - Fichier principal qui importe tous les modules CSS */
+@import url('base.css');
+@import url('layout.css');
+@import url('components.css');
+@import url('animations.css');
+@import url('theme.css');
+@import url('responsive.css');

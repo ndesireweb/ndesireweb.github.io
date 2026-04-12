@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact · NDesire14</title>
+  <meta name="description" content="Contacte-moi directement via ce formulaire. Pas de Discord, pas d'Instagram.">
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="noise"></div>
+  
+  <nav class="navbar">
+    <div class="nav-brand">
+      <i class="fas fa-gamepad"></i>
+      <span>NDesire14</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="a-propos.html">À propos</a></li>
+      <li><a href="jeux.html">Jeux</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="liens.html">Liens</a></li>
+      <li><a href="setup.html">Setup</a></li>
+    </ul>
+    <div class="nav-toggle" id="navToggle">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <main class="container page-content">
+    <h1 class="page-title">Contact</h1>
+
+    <div class="contact-grid">
+      <div class="about-text glass">
+        <h3><i class="fas fa-paper-plane"></i> Pourquoi ce formulaire ?</h3>
+        <p>Je préfère garder mes échanges concentrés ici. Tu peux me parler de jeux, de collaboration, ou juste dire bonjour. Aucun message ne sera ignoré.</p>
+        <ul>
+          <li><i class="fas fa-check"></i> Réponse garantie</li>
+          <li><i class="fas fa-check"></i> Aucune inscription</li>
+          <li><i class="fas fa-check"></i> 100% privé</li>
+        </ul>
+        <div class="contact-note">
+          <i class="fas fa-shield-alt"></i> Propulsé par Formspree (anti-spam)
+        </div>
+      </div>
+
+      <div class="contact-form glass">
+        <!-- ⚠️⚠️⚠️ REMPLACE "xlezkywr" PAR TON ID FORMSPREE ⚠️⚠️⚠️ -->
+        <!-- Va sur formspree.io, crée un compte, crée un formulaire, et récupère l'ID dans l'URL -->
+        <form id="contactForm" action="https://formspree.io/f/mykbqnao" method="POST">
+          <div class="form-group">
+            <label for="name">Ton nom / pseudo</label>
+            <input type="text" id="name" name="name" required placeholder="ex: JeanDuGame">
+          </div>
+          <div class="form-group">
+            <label for="email">Ton email <span>(pour que je puisse répondre)</span></label>
+            <input type="email" id="email" name="email" required placeholder="ex: toi@email.com">
+          </div>
+          <div class="form-group">
+            <label for="subject">Sujet</label>
+            <input type="text" id="subject" name="subject" placeholder="Proposition de jeu / Question / ...">
+          </div>
+          <div class="form-group">
+            <label for="message">Ton message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Écris ce que tu veux..."></textarea>
+          </div>
+          <input type="hidden" name="_next" value="/merci.html">
+          <input type="hidden" name="_subject" value="Nouveau message depuis NDesire14.github.io">
+          <input type="text" name="_gotcha" style="display:none">
+          
+          <button type="submit" class="btn btn-primary btn-block">
+            <i class="fas fa-paper-plane"></i> Envoyer le message
+          </button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2026 NDesire14 · Nathan Rehman</p>
+      <div class="footer-links">
+        <a href="plan-du-site.html">Plan du site</a> · 
+        <a href="mentions-legales.html">Mentions légales</a> · 
+        <a href="confidentialite.html">Confidentialité</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="nav.js"></script>
+  <script src="contact.js"></script>
+</body>
+</html>
+
+
+
+
