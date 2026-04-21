@@ -1,5 +1,11 @@
 # 🎮 NDesire14 – Site Officiel
 
+> **Nathan Rehman · 17 ans · Joueur compétitif & speedrunner**  
+> *Pas de Discord. Pas d'Insta. Juste ici.*
+
+Bienvenue sur le dépôt de mon site personnel.  
+Un espace 100% gaming, sans aucun réseau social, avec un formulaire de contact direct.
+
 ## 📁 Structure du projet
 Tous les fichiers sont à la racine (pas de sous-dossiers) pour un déploiement ultra simple.
 
@@ -18,7 +24,7 @@ NDesire14.github.io/
 ├── changelog.html
 ├── setup.html
 ├── liens.html
-├── style.css (importe les autres CSS)
+├── style.css
 ├── base.css
 ├── layout.css
 ├── components.css
@@ -36,21 +42,8 @@ NDesire14.github.io/
 ├── humans.txt
 ├── manifest.json
 ├── service-worker.js
-├── avatar.jpg (à fournir)
-├── hero-bg.jpg (optionnel)
-├── favicon.ico (à générer)
 └── README.md
 ```
-
-## ✨ Fonctionnalités
-- **Design gaming sombre** (glassmorphism + néon)
-- **100% responsive**
-- **Formulaire de contact direct** via Formspree (zéro réseau social)
-- **Génération dynamique des jeux** depuis `games-data.js`
-- **Pages complètes** : Accueil, À propos, Jeux, Contact, FAQ, mentions légales, etc.
-- **Animations au scroll** et effets glitch
-- **Service Worker** pour un accès hors ligne basique
-- **SEO optimisé** (sitemap, robots, meta tags)
 
 ## 🙏 Crédits
 - Inspiration : [Lolo'Tech](https://github.com/Lolo-Tech35/lolo-tech) (mon pote Lohann)
